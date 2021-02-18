@@ -17,7 +17,6 @@ try:
     robotRule.click()
     button = browser.find_element_by_css_selector('button.btn')
     button.click()
-    time.sleep(3)
 
 finally:
     time.sleep(10)
